@@ -1,0 +1,169 @@
+/*
+Template Name: Resort
+File: Layout CSS
+Author: TemplatesOnWeb
+Author URI: https://www.templateonweb.com/
+Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+*/
+/*********************center_list****************/
+.center_list {
+    background-image: url(../img/23.jpg);
+	background-position:center;
+}
+/*********************center_list_end****************/
+/*********************reserve****************/
+#reserve {
+    background-image: url(../img/2.jpg);
+}
+.reserve_m{
+background:#ffffffd9;
+padding-top:50px;
+padding-bottom:50px; 
+ }
+.reserve_2l h3:before {
+    display: inline-block;
+    width: 10%;
+    height: 2px;
+    background-color: #c1ae75;
+    vertical-align: middle;
+    margin-right: 2%;
+    content: "";
+}
+.reserve_1l h1 {
+font-size: 70px;
+}
+/*********************reserve_end****************/
+
+/*********************beach****************/
+#beach {
+    background-image: url(../img/3.jpg);
+}
+.beach_1r h1{
+font-size:70px;
+margin-left:-120px; 
+ }
+.beach_1r h5:before {
+    display: inline-block;
+    width: 20%;
+    height: 2px;
+    background-color: #c1ae75;
+    vertical-align: middle;
+    margin-right: 4%;
+    content: "";
+}
+.beach_1li1 .btn-success{
+background:#fff;
+border-radius:0; 
+padding:0;
+border:none;
+width:60px;
+height:40px;
+line-height:40px;
+border:1px solid #fff;
+margin-left:1px;
+margin-right:1px;
+text-align:center;
+color:#00355a;
+ }
+.beach_1li1 .btn-success:hover{
+ background:#00355a;
+ border-color:#00355a;
+ color:#fff;
+ }
+.beach_1l{
+position:relative; 
+ }
+.beach_1li1{
+position:absolute;
+bottom:15%;
+width:100%;
+ }
+
+#beach_o {
+background-image: url(../img/10.jpg);
+background-position:center;
+}
+#beach_o .beach_1r h1{
+margin-left:0;
+ }
+.beach_om{
+background:#00000057;
+padding-top:80px;
+padding-bottom:80px;
+ }
+.beach_1{
+margin-top:40px; 
+ }
+
+.beach_1li2 ul li{
+display:inline-block;
+color:#999;
+ }
+.beach_1li2 ul li a{
+padding-left:15px;
+padding-right:15px; 
+color: #00355a;
+ }
+.beach_1li2 ul li a i{
+margin-right:5px;
+font-size:16px;
+ }
+.beach_1li2 ul li a:hover{
+color:#c1ae75;
+ }
+ 
+#amenties{
+padding-top:40px;
+padding-bottom:40px;
+ }
+.amenties_1 ul{
+list-style:disc;
+margin-left:30px; 
+ }
+.amenties_1 ul li{
+margin-bottom:8px;
+ }
+/*********************beach_end****************/
+@media screen and (max-width : 767px){
+#reserve{
+text-align:center; 
+ }
+.reserve_1r {
+margin-top:15px; 
+ }
+.beach_1li2 ul li a{
+padding-left:5px;
+padding-right:5px; 
+ }
+.beach_1r h1{
+ margin-left:0;
+ }
+#beach{
+text-align:center; 
+ }
+#amenties{
+text-align:center;  
+ }
+.amenties_1 ul{
+margin-left:0;
+list-style:none; 
+ }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+.beach_1li img{
+min-height:450px; 
+ }
+ }
+@media (min-width:992px) and (max-width:1200px) {
+.beach_1li img{
+min-height:450px; 
+ }
+ }
+@media (min-width:1201px) and (max-width:1350px) {
+
+ }
+
+
+
+

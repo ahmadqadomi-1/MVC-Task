@@ -1,0 +1,203 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+<style>
+    /* Reset some default styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, li, a, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* Header section */
+.header_bl {
+    padding: 10px 0;
+}
+
+.header_bm h3 a {
+    text-decoration: none;
+    color: #333;
+}
+
+.header_bm h3 a span {
+    font-size: 14px;
+    color: #888;
+}
+
+/* Navigation */
+.navbar-nav {
+    list-style: none;
+}
+
+.navbar-nav li {
+    display: inline-block;
+}
+
+.navbar-nav .dropdown {
+    position: relative;
+}
+
+.navbar-nav .dropdown .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+.navbar-nav .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.navbar-nav a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+.navbar-nav a:hover {
+    background: #eee;
+}
+
+.m_tag, .m_tag_1 {
+    font-weight: bold;
+}
+
+/* Main section */
+.main {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.center_list_1 h1 {
+    font-size: 36px;
+    color: #555;
+}
+
+/* Contact section */
+#contact {
+    padding: 20px 0;
+}
+
+.contact_t iframe {
+    width: 100%;
+    height: 450px;
+    border: 0;
+}
+
+.contact_1i {
+    background: #fff;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.contact_1i h4 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.contact_1i h5 {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #888;
+}
+
+.contact_1i .span_1 {
+    font-size: 24px;
+    color: #555;
+}
+
+.contact_1i a {
+    text-decoration: none;
+    color: #333;
+}
+
+.contact_1i a:hover {
+    text-decoration: underline;
+}
+
+/* Contact form */
+.mgt {
+    margin-top: 10px;
+}
+
+.contact_1 .form-control {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border: 1px solid #ccc;
+}
+
+.contact_1 .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact_1 .button:hover {
+    background: #555;
+}
+
+/* Image */
+.iw {
+    width: 100%;
+    height: auto;
+}
+
+
+}
+
+</style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark">
+        <div class="container">
+            @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Toggle navigation" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
+                <ul class="navbar-nav flex-grow-1">
+                    <li>@Html.ActionLink("Home", "Home", "Admin", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Service", "Service", "Admin", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("ContactUS", "ContactUS", "Admin", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("AboutUs", "AboutUs", "Admin", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("LogIn", "LogIn", "Admin", new { area = "" }, new { @class = "nav-link" })</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

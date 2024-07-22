@@ -1,0 +1,97 @@
+/*
+Template Name: Resort
+File: Layout CSS
+Author: TemplatesOnWeb
+Author URI: https://www.templateonweb.com/
+Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+*/
+/*********************about****************/
+.center_list {
+    background-image: url(../img/48.jpg);
+	background-position:center;
+}
+#directory{
+padding-top:40px;
+padding-bottom:40px; 
+ }
+#about_page{
+padding-top:40px;
+padding-bottom:40px;
+background: #00355a;
+ }
+.about_page_1 .col-sm-2{
+ border-right:1px solid #014473;
+ }
+#business{
+ background:#c1ae7521;
+ padding-top:40px;
+ padding-bottom:40px;
+ }
+.business_1i{
+background:#fff;
+padding:20px 15px;
+box-shadow: 0 0 10px rgba(0,0,0,0.6); 
+ }
+ 
+#adver{
+padding-top:40px;
+padding-bottom:40px;
+ }
+.adver_1r ul li{
+margin-bottom:8px;
+font-weight:bold;
+ }
+.adver_1r ul li i{
+margin-right:5px;
+color:#1779d3;
+ }
+.adver_1r .form-control{
+height:50px;
+border-radius:0; 
+font-size:16px;
+ }
+.adver_1r .btn{
+padding:13px 30px;
+border-radius:0;
+font-weight:bold;
+font-size:16px;
+ }
+/*********************about_end****************/
+
+@media screen and (max-width : 767px){
+#directory{
+text-align:center;
+ }
+.directory_1r {
+margin-top:15px; 
+ }
+.about_page_1i {
+margin-top:15px;
+ }
+#business{
+text-align:center; 
+ }
+.business_1i {
+ margin-top:15px;
+ }
+#adver{
+text-align:center; 
+ }
+.adver_1r {
+margin-top:15px; 
+ }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+
+ }
+@media (min-width:992px) and (max-width:1200px) {
+
+ }
+@media (min-width:1201px) and (max-width:1350px) {
+
+ }
+
+
+
+

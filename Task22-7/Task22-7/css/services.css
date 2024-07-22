@@ -1,0 +1,196 @@
+/*
+Template Name: Resort
+File: Layout CSS
+Author: TemplatesOnWeb
+Author URI: https://www.templateonweb.com/
+Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+*/
+/*********************services****************/
+.center_list {
+    background-image: url(../img/51.jpg);
+	background-position:center;
+}
+.center_serv {
+	padding-top:40px;
+	padding-bottom:40px;
+}
+
+.Prosp_1 h4:before {
+    display: inline-block;
+    width: 6%;
+    height: 2px;
+    background-color: #c1ae75;
+    vertical-align: middle;
+    margin-right: 1%;
+    content: "";
+}
+.Prosp_1 h4:after {
+    display: inline-block;
+    width: 6%;
+    height: 2px;
+    background-color: #c1ae75;
+    vertical-align: middle;
+    margin-left: 1%;
+    content: "";
+}
+.Prosp_2i h5 a:after {
+    display: inline-block;
+    width: 10%;
+    height: 2px;
+    background-color: #c1ae75;
+    vertical-align: middle;
+    margin-left: 2%;
+    content: "";
+}
+.Prosp_2{
+margin-top:30px; 
+ }
+/*********************services_end****************/
+
+/*********************register****************/
+#register{
+background-image: url(../img/3.jpg);
+background-position:center;  
+   }
+.register_m{
+ background: #080d15b5; 
+ padding-top:120px;
+ padding-bottom:120px;
+   }
+.register_1l{
+ background:#00355a;
+ padding:60px 40px 65px 40px; 
+  }
+.register_1l h3{
+ color:#fff; 
+  }
+.register_1l p{
+ color:#fff; 
+  }
+.register_1l .form-control{
+margin-top:10px;
+width:80%;
+margin-left:auto;
+margin-right:auto;
+height:50px;
+  }
+.register_1r h1{
+ color:#fff; 
+  }
+.register_1r p{
+ color:#fff; 
+  }
+.register_1r ul{
+margin-top:20px;
+  }
+.register_1r ul li{
+margin-bottom:10px;
+color:#fff;
+  }
+.register_1r ul li i{
+color:#c1ae75;
+margin-right:5px;
+  }
+.register_1l .button:hover{
+ background:#c1ae75;
+ }
+/*********************register_end****************/
+
+/*********************plan****************/
+#plan{
+padding-top:40px;
+padding-bottom:40px;  
+  }
+.plan_1i ul li{
+margin-top:8px; 
+ }
+.plan_1i ul li i{
+vertical-align:middle;
+margin-right:5px;
+ }
+.plan_1i1 span i{
+font-size:80px; 
+ }
+.plan_1i1i{
+border-top:1px solid #ddd;  
+border-bottom:1px solid #ddd;
+margin-top:15px;
+padding-top:15px;
+padding-bottom:25px;
+  }
+.plan_1i1i h1{
+font-size:60px;
+font-weight:bold;
+  }
+.plan_1i1 ul{
+margin-top:20px; 
+ }
+.plan_1i1 ul li{
+margin-top:8px; 
+ }
+.plan_1i1 ul li i{
+margin-right:5px;
+vertical-align:middle; 
+ }
+.plan_1i1 h4{
+margin-top:20px; 
+ }
+
+.plan_1i1 h4:after {
+    display: inline-block;
+    width: 10%;
+    height: 2px;
+    background-color: #c1ae75;
+    vertical-align: middle;
+    margin-left: 2%;
+    content: "";
+}
+.plan_1i1{
+ background:#fafafa;
+ padding:40px 30px;
+ border-radius:30px; 
+ }
+.plan_1i1_o{
+ background:#00355a;
+ }
+/*********************plan_end****************/
+
+
+@media screen and (max-width : 767px){
+.center_serv{
+text-align:center; 
+ }
+.Prosp_2i {
+margin-top:15px; 
+ }
+.register_1l {
+padding: 30px 15px 35px 15px;
+}
+.register_m{
+padding-top:40px;
+padding-bottom:40px;
+text-align:center; 
+ }
+#plan{
+text-align:center;  
+ }
+.plan_1i1 {
+margin-top:15px; 
+ }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+.plan_1i1i h3{
+font-size:28px; 
+ }
+ }
+@media (min-width:992px) and (max-width:1200px) {
+
+ }
+@media (min-width:1201px) and (max-width:1350px) {
+
+ }
+
+
+
+

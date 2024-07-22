@@ -1,0 +1,282 @@
+/*
+Template Name: Resort
+File: Layout CSS
+Author: TemplatesOnWeb
+Author URI: https://www.templateonweb.com/
+Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+*/
+/*********************center_booking****************/
+.center_booking {
+    background-image: url(../img/42.jpg);
+	padding-top:250px;
+	background-position:center;
+}
+.center_booking_1{
+background:#fff;
+padding:30px 15px; 
+ }
+.center_booking_1 p i{
+margin-right:5px; 
+ }
+/*********************center_booking_end****************/
+
+/*********************booking****************/
+#booking{
+padding-top:40px;
+padding-bottom:40px;
+background: #00355a; 
+ }
+.booking_1li{
+background:#fff;
+padding:15px; 
+ }
+.booking_1li ul li{
+display:inline-block;
+padding-left:15px;
+padding-right:15px;
+border-right:1px solid #eee;
+font-size:16px;
+cursor:pointer;
+ }
+.booking_1li ul li span{
+float:left;
+display:block;
+ }
+.booking_1li ul li .span_1{
+margin-right:10px;
+font-size:30px;
+ }
+.booking_1li ul {
+float:left;
+ }
+.booking_1li1 h6 span{
+ background:#c1ae75;
+ width:30px;
+ height:30px;
+ text-align:center;
+ line-height:25px;
+ display:inline-block;
+ margin-bottom:8px;
+ border-radius:50%;
+ font-weight:bold;
+ }
+.booking_1li1 h6 {
+display:inline-block;
+margin-right:60px;
+}
+.booking_1li2{
+background:#fff;
+padding:15px;
+margin-top:20px; 
+ }
+.booking_1li2 .form-control{
+float:left;
+width:46%;
+margin-right:10px;
+font-size:14px;
+font-weight:bold; 
+color:#00355a;
+ }
+.booking_1li2 p{
+margin-top:4px;
+ }
+.booking_1l1i{
+padding:15px;
+border-bottom:2px solid #c1ae75; 
+ }
+.booking_1l1i h5 a{
+display:inline-block;
+margin-top:25px; 
+ }
+.booking_1l1i span{
+background: #c1ae75;
+width: 50px;
+height: 50px;
+text-align: center;
+line-height: 50px;
+display: inline-block;
+border-radius: 50%;
+font-weight: bold;
+color:#fff;
+font-size:26px;
+ }
+.booking_1l1{
+ margin-top:20px;
+ background:#fff;
+ }
+.booking_1l1i1{
+padding:15px;
+ }
+.booking_1l1i2r h4 span{
+font-size:16px;
+font-weight:100; 
+ }
+.booking_1l1i2l p{
+font-size:16px; 
+ }
+ 
+.ziehharmonika h3 {
+	cursor: pointer;
+	padding-right: 40px;
+	transition: 0.25s all;
+	position: relative;
+	font-size:16px;
+	font-weight:bold;
+}
+.ziehharmonika h3.alignLeft {
+	padding-left: 35px;
+}
+.ziehharmonika > div {
+	display: none;
+}
+
+.ziehharmonika .collapseIcon {
+	position: absolute;
+	right: 20px;
+	top: 45%;
+	font-size: 24px;
+	font-weight: 300;
+	-ms-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+	font-weight:bold;
+}
+.ziehharmonika .collapseIcon.alignLeft {
+	right: initial;
+	left: 20px;
+}
+ .ziehharmonika h3.active {
+color:#57b846;
+}
+.click_inl h5 i{
+margin-right:5px; 
+ }
+.click_inr h6 span{
+margin-left:10px;
+margin-right:10px;
+color:#999; 
+ }
+.click_inr p{
+font-size: 16px; 
+ }
+.click_inr1l p{
+font-size: 16px;  
+ }
+.click_inr1l p i{
+font-size: 8px;
+margin-right:5px;  
+ }
+.click_inr1r p{
+font-size: 14px; 
+ }
+.click_inr1r .button{
+padding:10px 15px;
+ }
+.click_inr1 {
+border-top:1px solid #c1ae75;
+margin-top:15px; 
+ }
+.click_in {
+border:1px solid #c1ae75;
+margin-top:20px;
+padding:10px;
+ }
+.booking_1l1i3 {
+padding-bottom:15px; 
+ }
+.booking_1r{
+background:#fff;
+padding:15px 15px 20px 15px; 
+ }
+.booking_1r p{
+font-size: 16px;  
+ }
+.booking_1r h5{
+border-top:1px solid #eee;
+padding-top:15px; 
+ }
+/*********************booking_end****************/
+
+@media screen and (max-width : 767px){
+.center_booking_1 {
+text-align:center; 
+ }
+.center_booking{
+padding-top:100px; 
+ }
+#booking{
+text-align:center; 
+ }
+.booking_1li{
+text-align:left;
+ }
+.booking_1li2 .form-control{
+margin-right:5px;
+margin-top:10px; 
+ }
+.booking_1l1i h5{
+margin-top:10px!important;
+margin-bottom:10px;  
+ }
+.booking_1l1i h5 a{
+margin-top:0; 
+ }
+.booking_1l1i2{
+text-align:left; 
+ }
+.booking_1l1i3{
+text-align:left; 
+ }
+.click_inr{
+margin-top:10px; 
+ }
+.booking_1r{
+margin-top:15px;
+text-align:left; 
+ }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+.booking_1li{
+padding:10px; 
+ }
+.booking_1li ul li{
+padding-left:5px;
+padding-right:5px;
+font-size:12px; 
+ }
+.booking_1li1 h6{
+margin-right:10px; 
+ }
+.booking_1li2 .form-control{
+margin-right:5px; 
+ }
+.booking_1l1i span{
+ width:40px;
+ height:40px;
+ line-height:40px;
+ font-size:20px;
+ }
+ }
+@media (min-width:992px) and (max-width:1200px) {
+.booking_1li{
+padding:10px; 
+ }
+.booking_1li ul li{
+padding-left:5px;
+padding-right:5px;
+font-size:14px; 
+ }
+.booking_1li1 h6{
+margin-right:40px; 
+ }
+.booking_1l1i h5 a{
+ font-size:14px;
+ }
+ }
+@media (min-width:1201px) and (max-width:1350px) {
+
+ }
+
+
+
+
