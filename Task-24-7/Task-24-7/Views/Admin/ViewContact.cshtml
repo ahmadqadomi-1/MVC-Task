@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "ViewContact";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>ViewContact</h2>
+
+<div class="container">
+    <section class="hero">
+        <h2>Contact Information</h2>
+        <p>Here are the details you provided:</p>
+    </section>
+    <section class="content">
+        <h3>Contact Details</h3>
+        <p><strong>Name:</strong> @ViewBag.name </p>
+        <p><strong>Email:</strong> @ViewBag.email  </p>
+        <p><strong>Message:</strong>@ViewBag.message </p>
+    </section>
+</div>
+

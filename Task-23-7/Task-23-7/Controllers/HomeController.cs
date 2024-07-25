@@ -28,7 +28,7 @@ namespace Task_23_7.Controllers
         [HttpPost]
         public ActionResult ViewContact(FormCollection form)
         {
-            ViewBag.name = form["name"];
+            Session["name "] = form["name"];
             ViewBag.num = form["num"];
             ViewBag.gender = form["gender"];
             ViewBag.Cont = form["Cont"];
