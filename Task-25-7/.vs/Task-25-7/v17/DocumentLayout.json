@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\MVC Task\\MVC-Task\\Task-25-7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C2EB320A-424F-410B-96D4-C0D7223FB32E}|Task-25-7\\Task-25-7.csproj|c:\\users\\orange\\desktop\\mvc task\\mvc-task\\task-25-7\\task-25-7\\controllers\\infoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2EB320A-424F-410B-96D4-C0D7223FB32E}|Task-25-7\\Task-25-7.csproj|solutionrelative:task-25-7\\controllers\\infoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2EB320A-424F-410B-96D4-C0D7223FB32E}|Task-25-7\\Task-25-7.csproj|c:\\users\\orange\\desktop\\mvc task\\mvc-task\\task-25-7\\task-25-7\\controllers\\table_1controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2EB320A-424F-410B-96D4-C0D7223FB32E}|Task-25-7\\Task-25-7.csproj|solutionrelative:task-25-7\\controllers\\table_1controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2EB320A-424F-410B-96D4-C0D7223FB32E}|Task-25-7\\Task-25-7.csproj|c:\\users\\orange\\desktop\\mvc task\\mvc-task\\task-25-7\\task-25-7\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{C2EB320A-424F-410B-96D4-C0D7223FB32E}|Task-25-7\\Task-25-7.csproj|solutionrelative:task-25-7\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InfoesController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC Task\\MVC-Task\\Task-25-7\\Task-25-7\\Controllers\\InfoesController.cs",
+              "RelativeDocumentMoniker": "Task-25-7\\Controllers\\InfoesController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC Task\\MVC-Task\\Task-25-7\\Task-25-7\\Controllers\\InfoesController.cs",
+              "RelativeToolTip": "Task-25-7\\Controllers\\InfoesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T20:50:52.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Table_1Controller.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC Task\\MVC-Task\\Task-25-7\\Task-25-7\\Controllers\\Table_1Controller.cs",
+              "RelativeDocumentMoniker": "Task-25-7\\Controllers\\Table_1Controller.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC Task\\MVC-Task\\Task-25-7\\Task-25-7\\Controllers\\Table_1Controller.cs",
+              "RelativeToolTip": "Task-25-7\\Controllers\\Table_1Controller.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T20:50:33.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC Task\\MVC-Task\\Task-25-7\\Task-25-7\\Models\\Model1.edmx",
+              "RelativeDocumentMoniker": "Task-25-7\\Models\\Model1.edmx",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC Task\\MVC-Task\\Task-25-7\\Task-25-7\\Models\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "Task-25-7\\Models\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-07-27T20:48:45.034Z",
+              "EditorCaption": " [Diagram1]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
