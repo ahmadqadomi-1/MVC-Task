@@ -1,0 +1,48 @@
+﻿@model Task_28_7.Models.MemInfo
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>MemInfo</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Member_Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Member_Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Member_Age)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Member_Age)
+        </dd>
+
+        <td>
+            <img src="@Url.Content($"~/Imgs/{Model.Member_Img }")" width="80" height="75" />
+        </td>
+
+        <dd>
+            @Html.DisplayFor(model => model.Member_Img)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

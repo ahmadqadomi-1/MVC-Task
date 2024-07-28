@@ -1,0 +1,42 @@
+﻿@model Task_28_7.Models.MemInfo
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>MemInfo</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Member_Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Member_Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Member_Age)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Member_Age)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Member_Img)
+        </dt>
+
+        <td>
+            <img src="@Url.Content($"~/Imgs/{Model.Member_Img }")" width="80" height="75" />
+        </td>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Member_ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

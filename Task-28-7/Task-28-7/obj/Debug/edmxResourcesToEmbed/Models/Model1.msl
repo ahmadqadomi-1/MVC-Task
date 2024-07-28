@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MemberInfoModelStoreContainer" CdmEntityContainer="MemberInfoEntities">
+    <EntitySetMapping Name="MemInfoes">
+      <EntityTypeMapping TypeName="MemberInfoModel.MemInfo">
+        <MappingFragment StoreEntitySet="MemInfo">
+          <ScalarProperty Name="Member_ID" ColumnName="Member_ID" />
+          <ScalarProperty Name="Member_Name" ColumnName="Member_Name" />
+          <ScalarProperty Name="Member_Age" ColumnName="Member_Age" />
+          <ScalarProperty Name="Member_Img" ColumnName="Member_Img" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
