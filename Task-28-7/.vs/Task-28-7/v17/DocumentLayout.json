@@ -3,27 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\MVC Task\\MVC-Task\\Task-28-7\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D940C94E-4C3F-4D4E-A1E6-B3C2852E1B12}|Task-28-7\\Task-28-7.csproj|C:\\Users\\Orange\\Desktop\\MVC Task\\MVC-Task\\Task-28-7\\task-28-7\\controllers\\meminfoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D940C94E-4C3F-4D4E-A1E6-B3C2852E1B12}|Task-28-7\\Task-28-7.csproj|solutionrelative:task-28-7\\controllers\\meminfoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D940C94E-4C3F-4D4E-A1E6-B3C2852E1B12}|Task-28-7\\Task-28-7.csproj|c:\\users\\orange\\desktop\\mvc task\\mvc-task\\task-28-7\\task-28-7\\views\\meminfoes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D940C94E-4C3F-4D4E-A1E6-B3C2852E1B12}|Task-28-7\\Task-28-7.csproj|solutionrelative:task-28-7\\views\\meminfoes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D940C94E-4C3F-4D4E-A1E6-B3C2852E1B12}|Task-28-7\\Task-28-7.csproj|c:\\users\\orange\\desktop\\mvc task\\mvc-task\\task-28-7\\task-28-7\\views\\meminfoes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D940C94E-4C3F-4D4E-A1E6-B3C2852E1B12}|Task-28-7\\Task-28-7.csproj|C:\\Users\\Orange\\Desktop\\MVC Task\\MVC-Task\\Task-28-7\\task-28-7\\views\\meminfoes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D940C94E-4C3F-4D4E-A1E6-B3C2852E1B12}|Task-28-7\\Task-28-7.csproj|solutionrelative:task-28-7\\views\\meminfoes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D940C94E-4C3F-4D4E-A1E6-B3C2852E1B12}|Task-28-7\\Task-28-7.csproj|c:\\users\\orange\\desktop\\mvc task\\mvc-task\\task-28-7\\task-28-7\\views\\meminfoes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D940C94E-4C3F-4D4E-A1E6-B3C2852E1B12}|Task-28-7\\Task-28-7.csproj|C:\\Users\\Orange\\Desktop\\MVC Task\\MVC-Task\\Task-28-7\\task-28-7\\views\\meminfoes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D940C94E-4C3F-4D4E-A1E6-B3C2852E1B12}|Task-28-7\\Task-28-7.csproj|solutionrelative:task-28-7\\views\\meminfoes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D940C94E-4C3F-4D4E-A1E6-B3C2852E1B12}|Task-28-7\\Task-28-7.csproj|c:\\users\\orange\\desktop\\mvc task\\mvc-task\\task-28-7\\task-28-7\\models\\model1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D940C94E-4C3F-4D4E-A1E6-B3C2852E1B12}|Task-28-7\\Task-28-7.csproj|C:\\Users\\Orange\\Desktop\\MVC Task\\MVC-Task\\Task-28-7\\task-28-7\\models\\model1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D940C94E-4C3F-4D4E-A1E6-B3C2852E1B12}|Task-28-7\\Task-28-7.csproj|solutionrelative:task-28-7\\models\\model1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D940C94E-4C3F-4D4E-A1E6-B3C2852E1B12}|Task-28-7\\Task-28-7.csproj|c:\\users\\orange\\desktop\\mvc task\\mvc-task\\task-28-7\\task-28-7\\controllers\\meminfoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D940C94E-4C3F-4D4E-A1E6-B3C2852E1B12}|Task-28-7\\Task-28-7.csproj|solutionrelative:task-28-7\\controllers\\meminfoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D940C94E-4C3F-4D4E-A1E6-B3C2852E1B12}|Task-28-7\\Task-28-7.csproj|c:\\users\\orange\\desktop\\mvc task\\mvc-task\\task-28-7\\task-28-7\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "AbsoluteMoniker": "D:0:0:{D940C94E-4C3F-4D4E-A1E6-B3C2852E1B12}|Task-28-7\\Task-28-7.csproj|C:\\Users\\Orange\\Desktop\\MVC Task\\MVC-Task\\Task-28-7\\task-28-7\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
       "RelativeMoniker": "D:0:0:{D940C94E-4C3F-4D4E-A1E6-B3C2852E1B12}|Task-28-7\\Task-28-7.csproj|solutionrelative:task-28-7\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     }
   ],
@@ -34,11 +34,11 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC Task\\MVC-Task\\Task-28-7\\Task-28-7\\Views\\MemInfoes\\Details.cshtml",
               "RelativeDocumentMoniker": "Task-28-7\\Views\\MemInfoes\\Details.cshtml",
@@ -46,12 +46,11 @@
               "RelativeToolTip": "Task-28-7\\Views\\MemInfoes\\Details.cshtml",
               "ViewState": "AQIAABgAAAAAAAAAAAAAACIAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-28T20:18:20.093Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-28T20:18:20.093Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC Task\\MVC-Task\\Task-28-7\\Task-28-7\\Views\\MemInfoes\\Delete.cshtml",
               "RelativeDocumentMoniker": "Task-28-7\\Views\\MemInfoes\\Delete.cshtml",
@@ -59,12 +58,11 @@
               "RelativeToolTip": "Task-28-7\\Views\\MemInfoes\\Delete.cshtml",
               "ViewState": "AQIAABUAAAAAAAAAAAAAAB4AAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-28T20:18:10.8Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-28T20:18:10.8Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Model1.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC Task\\MVC-Task\\Task-28-7\\Task-28-7\\Models\\Model1.cs",
               "RelativeDocumentMoniker": "Task-28-7\\Models\\Model1.cs",
@@ -72,31 +70,30 @@
               "RelativeToolTip": "Task-28-7\\Models\\Model1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T20:17:02.668Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-28T20:17:02.668Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC Task\\MVC-Task\\Task-28-7\\Task-28-7\\Views\\MemInfoes\\Index.cshtml",
               "RelativeDocumentMoniker": "Task-28-7\\Views\\MemInfoes\\Index.cshtml",
               "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC Task\\MVC-Task\\Task-28-7\\Task-28-7\\Views\\MemInfoes\\Index.cshtml",
               "RelativeToolTip": "Task-28-7\\Views\\MemInfoes\\Index.cshtml",
-              "ViewState": "AQIAABMAAAAAAAAAAAApwBoAAAAIAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAApwCEAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-28T19:26:11.978Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "MemInfoesController.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC Task\\MVC-Task\\Task-28-7\\Task-28-7\\Controllers\\MemInfoesController.cs",
               "RelativeDocumentMoniker": "Task-28-7\\Controllers\\MemInfoesController.cs",
               "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC Task\\MVC-Task\\Task-28-7\\Task-28-7\\Controllers\\MemInfoesController.cs",
               "RelativeToolTip": "Task-28-7\\Controllers\\MemInfoesController.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAA3wFAAAABdAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-28T19:25:46.35Z",
               "EditorCaption": ""
@@ -110,8 +107,7 @@
               "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC Task\\MVC-Task\\Task-28-7\\Task-28-7\\Models\\Model1.edmx [Diagram1]",
               "RelativeToolTip": "Task-28-7\\Models\\Model1.edmx [Diagram1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2024-07-28T19:24:41.655Z",
-              "EditorCaption": " [Diagram1]"
+              "WhenOpened": "2024-07-28T19:24:41.655Z"
             }
           ]
         }
