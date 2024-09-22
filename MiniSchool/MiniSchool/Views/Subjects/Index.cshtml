@@ -1,0 +1,141 @@
+﻿﻿@model IEnumerable<MiniSchool.Models.Subject>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="container">
+    <h2>Subjects List</h2>
+
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+
+    <ul class="responsive-table">
+        <li class="table-header">
+            <div class="col col-1">Id</div>
+            <div class="col col-2">Name</div>
+            <div class="col col-3">Actions</div>
+        </li>
+
+        @foreach (var item in Model)
+        {
+            <li class="table-row">
+                <div class="col col-1" data-label="Id">@item.Id</div>
+                <div class="col col-2" data-label="Name">@item.Name</div>
+                <div class="col col-3" data-label="Actions">
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                </div>
+            </li>
+        }
+    </ul>
+</div>
+<style>
+    body {
+        font-family: 'lato', sans-serif;
+    }
+
+    .container {
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: darkgray;
+    }
+
+    h2 {
+        font-size: 26px;
+        margin: 20px 0;
+        text-align: center;
+        color: darkgray;
+    }
+
+    .responsive-table {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        color: darkgray;
+
+    }
+
+    .table-header {
+        background-color: #95A5A6;
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
+        color: darkgray;
+    }
+
+        .table-header .col {
+            display: inline-block;
+            padding: 10px;
+            color: darkgray;
+        }
+
+    .table-row {
+        background-color: #ffffff;
+        box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1);
+        border-radius: 3px;
+        padding: 25px 30px;
+        margin-bottom: 25px;
+        display: flex;
+        justify-content: space-between;
+        color: darkgray;
+    }
+
+        .table-row .col {
+            display: inline-block;
+            padding: 10px;
+            color: darkgray;
+        }
+
+    .col-1 {
+        flex-basis: 10%;
+        color: darkgray;
+    }
+
+    .col-2 {
+        flex-basis: 50%;
+        color: darkgray;
+    }
+
+    .col-3 {
+        flex-basis: 40%;
+        color: darkgray;
+    }
+
+    @@media all and (max-width: 767px) {
+        .table-header {
+            display: none;
+            color: darkgray;
+        }
+
+        .table-row {
+            display: block;
+            color: darkgray;
+        }
+
+        .col {
+            flex-basis: 100%;
+            display: flex;
+            padding: 10px 0;
+/*                        &:before;*/
+            color: darkgray;
+        }
+    }
+
+    {
+        color: #6C7A89;
+        padding-right: 10px;
+        content: attr(data-label);
+        flex-basis: 50%;
+        text-align: right;
+        color: darkgray;
+    }
+
+    
+    
+</style>
